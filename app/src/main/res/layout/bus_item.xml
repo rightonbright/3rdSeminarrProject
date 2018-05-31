@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="62dp">
+
+    <TextView
+        android:id="@+id/bus_item_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="121212"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:id="@+id/bus_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bus_item_number"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="#000000"
+        android:text="[서울] 지선버스"
+        android:textSize="16dp"/>
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingRight="16dp"
+        android:layout_alignParentRight="true">
+
+        <LinearLayout
+            android:id="@+id/bus_item_color"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#111111"
+            android:orientation="horizontal" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/main_layout"
+        />
+
+</RelativeLayout>
