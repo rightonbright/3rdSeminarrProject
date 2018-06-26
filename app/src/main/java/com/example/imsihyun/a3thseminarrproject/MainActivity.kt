@@ -18,28 +18,31 @@ class MainActivity : AppCompatActivity() {
 
         busItems = ArrayList()
         busItems.add(BusData(R.drawable.ic_launcher_background,
-                "2415",
+                "5515",
                 "[서울]지선버스"))
         busItems.add(BusData(R.drawable.ic_launcher_background,
-                "4212",
+                "720",
+                "[서울]간선버스"))
+        busItems.add(BusData(R.drawable.ic_launcher_background,
+                "3100",
+                "[서울]광역버스"))
+        busItems.add(BusData(R.drawable.ic_launcher_background,
+                "3600",
+                "[서울]광역버스"))
+        busItems.add(BusData(R.drawable.ic_launcher_background,
+                "172",
+                "[서울]간선버스"))
+        busItems.add(BusData(R.drawable.ic_launcher_background,
+                "1221",
                 "[서울]지선버스"))
         busItems.add(BusData(R.drawable.ic_launcher_background,
-                "1669",
+                "1224",
                 "[서울]지선버스"))
         busItems.add(BusData(R.drawable.ic_launcher_background,
-                "8693",
+                "1131",
                 "[서울]지선버스"))
         busItems.add(BusData(R.drawable.ic_launcher_background,
-                "1234",
-                "[서울]지선버스"))
-        busItems.add(BusData(R.drawable.ic_launcher_background,
-                "3252",
-                "[서울]지선버스"))
-        busItems.add(BusData(R.drawable.ic_launcher_background,
-                "4232",
-                "[서울]지선버스"))
-        busItems.add(BusData(R.drawable.ic_launcher_background,
-                "1232",
+                "1141",
                 "[서울]지선버스"))
 
         BusAdapter = BusAdapter(busItems)
