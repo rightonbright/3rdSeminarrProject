@@ -26,16 +26,5 @@ class BusAdapter(var busItems : ArrayList<BusData>)
         holder.BusNumber.text = busItems[position].Number
         holder.BusNumber.setTextColor(Color.parseColor("#00FF00"))
         holder.BusText.text = busItems[position].text
-
-        holder.BusColor.setBackgroundColor(Color.parseColor("#0000FF"))
-        holder.BusNumber.text = busItems[position].Number
-        holder.BusNumber.setTextColor(Color.parseColor("#0000FF"))
-        holder.BusText.text = busItems[position].text
-
-        holder.BusColor.setBackgroundColor(Color.parseColor("#FF0000"))
-        holder.BusNumber.text = busItems[position].Number
-        holder.BusNumber.setTextColor(Color.parseColor("#FF0000"))
-        holder.BusText.text = busItems[position].text
-
     }
 }

@@ -12,7 +12,6 @@ class MainActivity : AppCompatActivity() {
     lateinit var busItems : ArrayList<BusData>
     lateinit var BusAdapter : BusAdapter
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -20,9 +19,6 @@ class MainActivity : AppCompatActivity() {
         busItems = ArrayList()
         busItems.add(BusData(R.drawable.ic_launcher_background,
                 "2415",
-                "[서울]지선버스"))
-        busItems.add(BusData(R.drawable.ic_launcher_background,
-                "4318",
                 "[서울]지선버스"))
         busItems.add(BusData(R.drawable.ic_launcher_background,
                 "4212",
